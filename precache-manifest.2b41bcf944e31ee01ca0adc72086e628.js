@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a073a3e5a6bd7d3c45ec4a67207b691c",
+    "revision": "1255b75728c7548163a14b3418226d4a",
     "url": "/labyrinth-nnt/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/labyrinth-nnt/static/js/2.b60a4697.chunk.js.LICENSE"
   },
   {
-    "revision": "55e2a8826f1f9f90981d",
-    "url": "/labyrinth-nnt/static/js/main.ac17377e.chunk.js"
+    "revision": "195b2fc2a081cb7e0c81",
+    "url": "/labyrinth-nnt/static/js/main.bc168499.chunk.js"
   },
   {
     "revision": "9b72770a6e52b3498104",

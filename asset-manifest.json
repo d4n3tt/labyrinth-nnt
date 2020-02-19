@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/labyrinth-nnt/static/js/main.ac17377e.chunk.js",
-    "main.js.map": "/labyrinth-nnt/static/js/main.ac17377e.chunk.js.map",
+    "main.js": "/labyrinth-nnt/static/js/main.bc168499.chunk.js",
+    "main.js.map": "/labyrinth-nnt/static/js/main.bc168499.chunk.js.map",
     "runtime-main.js": "/labyrinth-nnt/static/js/runtime-main.9f230f93.js",
     "runtime-main.js.map": "/labyrinth-nnt/static/js/runtime-main.9f230f93.js.map",
     "static/js/2.b60a4697.chunk.js": "/labyrinth-nnt/static/js/2.b60a4697.chunk.js",
     "static/js/2.b60a4697.chunk.js.map": "/labyrinth-nnt/static/js/2.b60a4697.chunk.js.map",
     "index.html": "/labyrinth-nnt/index.html",
-    "precache-manifest.64f7fd646ea2229d94c20d03d3fad635.js": "/labyrinth-nnt/precache-manifest.64f7fd646ea2229d94c20d03d3fad635.js",
+    "precache-manifest.2b41bcf944e31ee01ca0adc72086e628.js": "/labyrinth-nnt/precache-manifest.2b41bcf944e31ee01ca0adc72086e628.js",
     "service-worker.js": "/labyrinth-nnt/service-worker.js",
     "static/js/2.b60a4697.chunk.js.LICENSE": "/labyrinth-nnt/static/js/2.b60a4697.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.9f230f93.js",
     "static/js/2.b60a4697.chunk.js",
-    "static/js/main.ac17377e.chunk.js"
+    "static/js/main.bc168499.chunk.js"
   ]
 }
