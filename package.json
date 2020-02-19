@@ -24,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,6 +49,7 @@
     "@types/styled-components": "^4.4.2",
     "babel-plugin-macros": "^2.8.0",
     "fork-ts-checker-webpack-plugin": "^4.0.1",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
     "ts-loader": "^6.2.1",
     "tslint": "^5.20.1",
