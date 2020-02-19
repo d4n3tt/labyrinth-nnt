@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/labyrinth-nnt/precache-manifest.6d747525fb480052d43c4bbc5a88d860.js"
+  "/labyrinth-nnt/precache-manifest.4f5cc7280f060e8187808e77d26de5c6.js"
 );
 
 self.addEventListener('message', (event) => {
