@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdca097a07a03df440e368598bce3872",
+    "revision": "a073a3e5a6bd7d3c45ec4a67207b691c",
     "url": "/labyrinth-nnt/index.html"
   },
   {
