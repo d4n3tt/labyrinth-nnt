@@ -176,7 +176,7 @@ const Quiz: React.FC = () => {
               <br />
               <br />
             </S.Text>
-            <img src={img1_2} />
+            <img src={img1_2} style={{ width: "30rem" }} />
             <S.TextInputContainer>
               Answer
               <br />
