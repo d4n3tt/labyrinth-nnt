@@ -1,9 +1,10 @@
 {
   "name": "labyrinth-nnt",
   "version": "0.1.0",
-  "homepage": "https://d4n3tt.github.io/labyrinth-nnt",
+  "homepage": "http://d4n3tt.github.io/labyrinth-nnt",
   "private": true,
   "dependencies": {
+    "@babel/runtime": "^7.8.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -18,7 +19,8 @@
     "react-scripts": "3.3.0",
     "react-sound": "^1.2.0",
     "styled-components": "^5.0.0",
-    "styled-reset": "^4.0.9"
+    "styled-reset": "^4.0.9",
+    "universal-cookie": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -48,6 +50,7 @@
     "@types/react": "^16.9.17",
     "@types/styled-components": "^4.4.2",
     "babel-plugin-macros": "^2.8.0",
+    "babel-preset-react-app": "^9.1.1",
     "fork-ts-checker-webpack-plugin": "^4.0.1",
     "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
@@ -55,6 +58,9 @@
     "tslint": "^5.20.1",
     "tslint-react": "^4.1.0",
     "typescript": "^3.7.5"
+  },
+  "resolutions": {
+    "**/@babel/runtime": "7.5.0"
   },
   "prettier": {
     "printWidth": 80,

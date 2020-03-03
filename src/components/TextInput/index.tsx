@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import * as S from "./styles";
+import Cookies from "universal-cookie";
 
-const TextInput: React.FC = () => {
+interface InputProps {
+  answer: string;
+  index: number;
+}
+const TextInput: React.FC<InputProps> = ({ answer, index }) => {
   const [text, setText] = useState("");
 
   const onChange = e => {
@@ -9,7 +14,13 @@ const TextInput: React.FC = () => {
   };
 
   const onClickButton = e => {
-    window.location.href = `/${text}`;
+    if (text == answer) {
+      const cookies = new Cookies();
+      if (cookies.get("cookie") < index) {
+        cookies.set("cookie", index);
+      }
+      window.location.href = `/${text}`;
+    } else alert("정답이 아닙니다.");
   };
 
   return (

@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 
 export const Text = styled.div`
-  color: white;
+  color: black;
   font-size: 1.6rem;
   font-weight: 500;
   margin-top: 10rem;
@@ -10,7 +10,7 @@ export const Text = styled.div`
   height: 30rem;
 `;
 export const HiddenMessage = styled.div`
-  color: black;
+  color: white;
   font-size: 1.6rem;
   font-weight: 500;
   height: 2rem;

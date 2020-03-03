@@ -37,9 +37,28 @@ export const TextInputContainer = styled.div`
 `;
 
 export const Footer = styled.div`
+  background: black;
   color: white;
   font-size: 1rem;
   font-weight: 300;
   line-height: 2rem;
-  margin-top: 10rem;
+`;
+
+export const HiddenFooter = styled.div`
+  background: black;
+  color: black;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2rem;
+`;
+
+export const ButtonContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`;
+
+export const Space = styled.div`
+  background: black;
+  height: 5rem;
 `;

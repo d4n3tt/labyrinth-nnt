@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 
 export const TextInputContainer = styled.div`
-  color: white;
+  color: black;
   font-size: 1rem;
   font-weight: 300;
   margin-top: 10rem;
@@ -9,7 +9,7 @@ export const TextInputContainer = styled.div`
 `;
 
 export const Text = styled.div`
-  color: white;
+  color: black;
   font-size: 1.6rem;
   font-weight: 500;
   margin-top: 10rem;
@@ -17,7 +17,7 @@ export const Text = styled.div`
   padding: 0rem 5rem;
 `;
 export const Number = styled.div`
-  color: white;
+  color: black;
   font-size: 2rem;
   font-weight: 500;
   margin-top: 10rem;

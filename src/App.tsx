@@ -3,12 +3,17 @@ import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import QuizPage from "./pages/QuizPage";
 import BGM from "./components/BGM";
+import Cookies from "universal-cookie";
 
 const App: React.FC = () => {
+  const cookies = new Cookies();
+  if (cookies.get("cookie") == null) {
+    cookies.set("cookie", "0");
+  }
   return (
     <>
       <BGM />
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
