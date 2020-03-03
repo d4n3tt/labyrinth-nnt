@@ -39,7 +39,7 @@ const Home: React.FC = () => {
           startDate={new Date("03/06/2020 00:00:00")}
           dateText="03/06"
           afterText="피"
-          code="sun"
+          code="flddot"
           iconUrl={icon0306}
           index={2}
         />
