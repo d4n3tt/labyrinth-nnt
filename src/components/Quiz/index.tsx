@@ -181,7 +181,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="lenggo" index={0} />
+              <TextInput answer="lenggo" index={0} goTo="lenggo" />
             </S.TextInputContainer>
           </>
         )}
@@ -266,7 +266,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="sun" index={1} />
+              <TextInput answer="sun" index={1} goTo="sun" />
             </S.TextInputContainer>
           </>
         )}
@@ -345,7 +345,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="marga" index={1} />
+              <TextInput answer="marga" index={1} goTo="marga" />
             </S.TextInputContainer>
           </>
         )}
@@ -366,7 +366,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="blood" index={2} />
+              <TextInput answer="blood" index={2} goTo="blood" />
             </S.TextInputContainer>
           </>
         )}
@@ -380,7 +380,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="marvil" index={3} />
+              <TextInput answer="marvil" index={3} goTo="marvil" />
             </S.TextInputContainer>
           </>
         )}
@@ -399,7 +399,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="bus" index={3} />
+              <TextInput answer="bus" index={3} goTo="bus" />
             </S.TextInputContainer>
           </>
         )}
@@ -412,7 +412,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="yusera" index={3} />
+              <TextInput answer="yusera" index={3} goTo="yusera" />
             </S.TextInputContainer>
           </>
         )}

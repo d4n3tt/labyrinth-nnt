@@ -5,8 +5,9 @@ import Cookies from "universal-cookie";
 interface InputProps {
   answer: string;
   index: number;
+  goTo: string;
 }
-const TextInput: React.FC<InputProps> = ({ answer, index }) => {
+const TextInput: React.FC<InputProps> = ({ answer, index, goTo }) => {
   const [text, setText] = useState("");
 
   const onChange = e => {
@@ -14,12 +15,16 @@ const TextInput: React.FC<InputProps> = ({ answer, index }) => {
   };
 
   const onClickButton = e => {
+    var urlString = window.location.href;
     if (text == answer) {
       const cookies = new Cookies();
       if (cookies.get("cookie") < index) {
         cookies.set("cookie", index);
       }
-      window.location.href = `/${text}`;
+      window.location.replace(
+        urlString.replace("labyrinth-nnt/", "labyrinth-nnt/" + `${goTo}`)
+      );
+      /* window.location.href = `/${goTo}`; */
     } else alert("정답이 아닙니다.");
   };
 
