@@ -28,7 +28,7 @@ const Home: React.FC = () => {
       <S.Space />
       <S.ButtonContainer>
         <Button
-          startDate={new Date("01/02/2020 00:00:00")}
+          startDate={new Date("03/02/2020 00:00:00")}
           dateText="03/04"
           afterText="해"
           code="start"
@@ -36,7 +36,7 @@ const Home: React.FC = () => {
           index={1}
         />
         <Button
-          startDate={new Date("01/06/2020 00:00:00")}
+          startDate={new Date("03/06/2020 00:00:00")}
           dateText="03/06"
           afterText="피"
           code="sun"
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
           index={2}
         />
         <Button
-          startDate={new Date("01/08/2020 00:00:00")}
+          startDate={new Date("03/08/2020 00:00:00")}
           dateText="03/08"
           afterText="버스"
           code="blood"
@@ -80,7 +80,7 @@ const Home: React.FC = () => {
         />
         <Button16 startDate={new Date("03/16/2020 00:00:00")} />
         <Button18
-          startDate={new Date("01/18/2020 00:00:00")}
+          startDate={new Date("03/18/2020 00:00:00")}
           code="muffan"
           dateText="03/18"
         />
