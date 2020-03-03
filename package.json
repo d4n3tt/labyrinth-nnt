@@ -1,7 +1,7 @@
 {
   "name": "labyrinth-nnt",
   "version": "0.1.0",
-  "homepage": "http://d4n3tt.github.io/labyrinth-nnt",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.8.4",
@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.9.4",
     "@types/react-router-dom": "^5.1.3",
     "@types/react-sound": "^1.2.2",
+    "babel-preset-react": "^6.24.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
