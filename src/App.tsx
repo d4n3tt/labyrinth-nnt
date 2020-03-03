@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import QuizPage from "./pages/QuizPage";
 import BGM from "./components/BGM";
 import Cookies from "universal-cookie";
-import {} from "styled-components/cssprop";
 
 const App: React.FC = () => {
   const cookies = new Cookies();
