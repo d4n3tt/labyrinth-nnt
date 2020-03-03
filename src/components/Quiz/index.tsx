@@ -181,12 +181,12 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="lenggo" index={0} goTo="lenggo" />
+              <TextInput answer="lenggo" index={0} goTo="vksaj" />
             </S.TextInputContainer>
           </>
         )}
       {new Date() >= new Date("01/04/2020 00:00:00") &&
-        window.location.pathname === `/lenggo` && (
+        window.location.pathname === `/vksaj` && (
           <>
             <S.Number>1</S.Number>
             <S.Text>
