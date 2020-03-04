@@ -25,7 +25,6 @@ const Button16: React.FC<Button16Props> = ({ startDate }) => {
           </S.Container>
         </>
       )}
-      {/* 아직 안 열렸는데 전에꺼 풀었음 */}
       {new Date() < startDate && state < 6 && (
         <>
           <S.Container>
@@ -34,7 +33,6 @@ const Button16: React.FC<Button16Props> = ({ startDate }) => {
           </S.Container>
         </>
       )}
-      {/* 아직 안 열림 */}
     </>
   );
 };

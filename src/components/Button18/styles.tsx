@@ -34,3 +34,8 @@ export const Container = styled.div`
   justify-content: center;
   margin: 0rem 2rem;
 `;
+
+export const Button = styled.button`
+  background-color: #ffffff;
+  border: 0rem;
+`;

@@ -7,12 +7,10 @@ export const Text = styled.div`
   margin-top: 10rem;
   line-height: 3rem;
   padding: 0rem 5rem;
-  height: 30rem;
+  height: 20rem;
 `;
-export const HiddenMessage = styled.div`
-  color: white;
-  font-size: 1.6rem;
-  font-weight: 500;
-  height: 2rem;
-  height: 50rem;
+
+export const Button = styled.button`
+  background-color: #ffffff;
+  border: 0rem;
 `;

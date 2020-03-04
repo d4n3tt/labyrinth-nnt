@@ -172,6 +172,7 @@ const Quiz: React.FC = () => {
             톡기가 놀라며 말했다.
             <br />
             <br />
+            ※미궁의 모든 문제의 답은 소문자 영단어입니다.
           </S.Text>
           <img src={img1_2} style={{ width: "30rem" }} />
           <S.TextInputContainer>
