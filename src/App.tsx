@@ -8,8 +8,13 @@ import Cookies from "universal-cookie";
 
 const App: React.FC = () => {
   const cookies = new Cookies();
+  var d = new Date();
+  var year = d.getFullYear();
+  var month = d.getMonth();
+  var day = d.getDate();
+  var c = new Date(year + 1, month, day);
   if (cookies.get("cookie") == null) {
-    cookies.set("cookie", "0");
+    cookies.set("cookie", "0", { maxAge: 31536000, expires: c });
   }
   return (
     <>

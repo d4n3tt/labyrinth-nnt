@@ -30,7 +30,7 @@ const Button18: React.FC<Button16Props> = ({ startDate, code, dateText }) => {
           </S.Container>
         </>
       )}
-      {/* 18 */}
+      {/* 18일 */}
       {new Date() < startDate && state == 6 && new Date() < startDate && (
         <>
           <S.Container>
