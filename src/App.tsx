@@ -9,7 +9,7 @@ import Cookies from "universal-cookie";
 const App: React.FC = () => {
   const cookies = new Cookies();
   if (cookies.get("cookie") == null) {
-    cookies.set("cookie", "0");
+    cookies.set("cookie", "0", { maxAge : '15768000000' });
   }
   return (
     <>
