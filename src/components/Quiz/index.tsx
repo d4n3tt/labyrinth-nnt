@@ -269,7 +269,7 @@ const Quiz: React.FC = () => {
           </>
         )}
       {new Date() >= new Date("03/06/2020 00:00:00") &&
-        window.location.pathname === `/flddot ` && (
+        window.location.pathname === `/flddot` && (
           <>
             <S.Number>2</S.Number>
             <S.Text>
@@ -343,7 +343,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="marga" index={1} goTo="marga" />
+              <TextInput answer="marga" index={2} goTo="garam" />
             </S.TextInputContainer>
           </>
         )}
@@ -355,21 +355,70 @@ const Quiz: React.FC = () => {
         )}
 
       {new Date() >= new Date("03/06/2020 00:00:00") &&
-        window.location.pathname === `/marga` && (
+        window.location.pathname === `/garam` && (
           <>
             <S.Number>2</S.Number>
-            <S.Text></S.Text>
+            <S.Text>
+            	풍선의 내용물은 마가를 가리키고 있었다.
+	            <br />
+              	<br />
+				“이런게 왜 풍선안에 있는거죠?”
+				<br />
+              	<br />
+				“마가님이 정답인 문제라니 수상한데?”
+				<br />
+              	<br />
+				“아니, 제가 넣어놓은게 아니라구요. 오히려 저도 궁금하거든요. 어째서 제 이름이 나오는데요?”
+				<br />
+              	<br />
+				마가도 당황한듯이 변명을 하고 있었다.
+				<br />
+              	<br />
+				“누가 준비한건진 몰라도 거기에 마가님 적혀 이름이 있다는건 연관이 있다는거 아니에요!?”
+				<br />
+              	<br />
+				“그렇게치면 초대장 뒤에 이름이 적혀 있던 오군도 충분히 수상한거 아니에요?”
+				<br />
+              	<br />
+				마가는 자신만 당할 수 없다며 앞서 문제를 냈던 렝고를 걸고 넘어졌다.
+				<br />
+              	<br />
+				“흠 그것도 그렇군”
+				<br />
+              	<br />
+				“마가님이 문제 낼 차례라는 거 아니에요?”
+				<br />
+              	<br />
+				“이상하긴 하지만 왠지 그러라는것 같네요”
+				<br />
+              	<br />
+				“그럼 이거부터 받고 내세요”
+				<br />
+              	<br />
+				렝고는 달고 있던 뱃지를 떼서 마가한테 건내줬다.
+				<br />
+              	<br />
+				마가는 뱃지를 받아 자신의 옷에 옮겨 달았다.
+				<br />
+              	<br />
+				“네 알겠습니다. 그럼 제가 준비한 문제나 보시죠.”
+				<br />
+              	<br />
+				그리고 주머니에서 펜을 꺼낸 뒤 자신의 초대장 뒷면에 그림을 그리기 시작했다.
+				<br />
+              	<br />
+            </S.Text>
             <img src={img2} />
             <S.TextInputContainer>
               Answer
               <br />
               <br />
-              <TextInput answer="blood" index={2} goTo="blood" />
+              <TextInput answer="blood" index={2} goTo="plooq" />
             </S.TextInputContainer>
           </>
         )}
       {new Date() >= new Date("03/08/2020 00:00:00") &&
-        window.location.pathname === `/blood` && (
+        window.location.pathname === `/plooq` && (
           <>
             <S.Number>3</S.Number>
             <S.Text></S.Text>
@@ -383,7 +432,7 @@ const Quiz: React.FC = () => {
           </>
         )}
       {new Date() < new Date("03/08/2020 00:00:00") &&
-        window.location.pathname === `/blood` && (
+        window.location.pathname === `/plooq` && (
           <>
             <Clock date={new Date("03/08/2020 00:00:00")} />
           </>

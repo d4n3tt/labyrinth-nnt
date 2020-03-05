@@ -36,7 +36,7 @@ const Home: React.FC = () => {
           index={1}
         />
         <Button
-          startDate={new Date("03/06/2020 00:00:00")}
+          startDate={new Date("01/06/2020 00:00:00")}
           dateText="03/06"
           afterText="피"
           code="flddot"
@@ -47,7 +47,7 @@ const Home: React.FC = () => {
           startDate={new Date("03/08/2020 00:00:00")}
           dateText="03/08"
           afterText="버스"
-          code="blood"
+          code="plooq"
           iconUrl={icon0308}
           index={3}
         />
