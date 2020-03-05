@@ -343,7 +343,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="marga" index={2} goTo="garam" />
+              <TextInput answer="marga" index={1} goTo="garam" />
             </S.TextInputContainer>
           </>
         )}
@@ -427,7 +427,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="marvil" index={3} goTo="marvil" />
+              <TextInput answer="marvil" index={2} goTo="marvil" />
             </S.TextInputContainer>
           </>
         )}
