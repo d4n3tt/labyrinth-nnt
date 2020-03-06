@@ -8,3 +8,9 @@ export const Main = styled.div`
   height: 100%;
   text-align: center;
 `;
+
+export const Space = styled.div`
+  color: red;
+  font-size: 10rem;
+  height: 20rem;
+`;

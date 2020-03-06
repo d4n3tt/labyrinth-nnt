@@ -15,19 +15,20 @@ const EndingPage: React.FC = () => {
   return (
     <>
       <S.Main>
+        <S.Space>노넥생일축하</S.Space>
         <img src={gif1} style={{ width: "30rem" }} />
-        <br />
+        <S.Space>노넥생일축하</S.Space>
         <img src={gif2} style={{ width: "20rem" }} />
         <img src={gif3} style={{ width: "50rem" }} />
-        <br />
+        <S.Space>노넥생일축하</S.Space>
         <img src={gif4} style={{ width: "20rem" }} />
         <img src={gif5} style={{ width: "50rem" }} />
-        <br />
+        <S.Space>노넥생일축하</S.Space>
         <img src={gif6} style={{ width: "20rem" }} />
-        <br />
+        <S.Space>노넥생일축하</S.Space>
         <img src={gif7} style={{ width: "50rem" }} />
         <img src={gif8} style={{ width: "20rem" }} />
-        <br />
+        <S.Space>노넥생일축하</S.Space>
         <img src={gif9} style={{ width: "50rem" }} />
       </S.Main>
     </>
