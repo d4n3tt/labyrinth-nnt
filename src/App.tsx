@@ -2,6 +2,7 @@ import React from "react";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 /* import Muffan from "./pages/Muffan"; */
+import EndingPage from "./pages/EndingPage";
 import QuizPage from "./pages/QuizPage";
 import BGM from "./components/BGM";
 import Cookies from "universal-cookie";
@@ -22,6 +23,7 @@ const App: React.FC = () => {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/ending" component={EndingPage} />
           {/* <Route exact path="/fssssss" component={Muffan} /> */}
           <Route default component={QuizPage} />
         </Switch>

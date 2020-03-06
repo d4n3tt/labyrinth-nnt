@@ -15,6 +15,8 @@ import img6_2 from "../../assets/6-2.png";
 
 import image1 from "../../assets/image1.jpg";
 import image2 from "../../assets/image2.png";
+import image3 from "../../assets/image3.png";
+import image4 from "../../assets/image4.png";
 
 const Quiz: React.FC = () => {
   return (
@@ -540,6 +542,9 @@ const Quiz: React.FC = () => {
               톡기는 당황하며 뱃지와 떨어진 물건을 주웠다.
               <br />
               <br />
+              <img src={image3} alt="" style={{ width: "30rem" }} />
+              <br />
+              <br />
               그 물건은 얼굴이 그려진 분홍색 바나나 인형이었다.
               <br />
               <br />
@@ -586,7 +591,7 @@ const Quiz: React.FC = () => {
               일이었다.
               <br />
               <br />
-              “일단 그냥 이름나온 제가 할게요”
+              “일단 그냥 이름 나온 제가 할게요.”
               <br />
               <br />
               보다못한 마뷜이 일어서며 이야기를 꺼냈다.
@@ -616,20 +621,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="bus" index={2} goTo="aksdnjs" />
-            </S.TextInputContainer>
-          </>
-        )}
-      {new Date() >= new Date("03/10/2020 00:00:00") &&
-        window.location.pathname === `/aksdnjs` && (
-          <>
-            <S.Number>4</S.Number>
-            <S.Text></S.Text>
-            <S.TextInputContainer>
-              Answer
-              <br />
-              <br />
-              <TextInput answer="bus" index={3} goTo="bus" />
+              <TextInput answer="bus" index={3} goTo="aksdnjs" />
             </S.TextInputContainer>
           </>
         )}
@@ -639,6 +631,40 @@ const Quiz: React.FC = () => {
             <Clock date={new Date("03/10/2020 00:00:00")} />
           </>
         )}
+      {new Date() >= new Date("03/10/2020 00:00:00") &&
+        window.location.pathname === `/aksdnjs` && (
+          <>
+            <S.Number>4</S.Number>
+            <img src={image4} alt="" style={{ width: "30rem" }} />
+            <S.Text>*대충 답이 유세라인 문제*</S.Text>
+            <S.TextInputContainer>
+              Answer
+              <br />
+              <br />
+              <TextInput answer="yusera" index={3} goTo="emaghctaw" />
+            </S.TextInputContainer>
+          </>
+        )}
+      {new Date() >= new Date("03/10/2020 00:00:00") &&
+        window.location.pathname === `/emaghctaw` && (
+          <>
+            <S.Number>4</S.Number>
+            <S.Text>*대충 답이 day인 문제*</S.Text>
+            <S.TextInputContainer>
+              Answer
+              <br />
+              <br />
+              <TextInput answer="day" index={5} goTo="emaghctaw" />
+            </S.TextInputContainer>
+          </>
+        )}
+      {new Date() < new Date("03/10/2020 00:00:00") &&
+        window.location.pathname === `/emaghctaw` && (
+          <>
+            <Clock date={new Date("03/10/2020 00:00:00")} />
+          </>
+        )}
+      {/* ㅁㄴㅇ */}
     </>
   );
 };
