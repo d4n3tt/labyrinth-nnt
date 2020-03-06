@@ -11,6 +11,24 @@ export const Main = styled.div`
 
 export const Space = styled.div`
   color: red;
-  font-size: 10rem;
+  font-size: 5rem;
   height: 20rem;
+`;
+
+export const Button = styled.button`
+  font-size: 3rem;
+  animation: buttonAnimation 0.3s infinite;
+  @keyframes buttonAnimation {
+    0% {
+      transform: translateY(50px);
+    }
+
+    50% {
+      transform: translateY(-100px);
+    }
+
+    100% {
+      transform: translateY(50px);
+    }
+  }
 `;
