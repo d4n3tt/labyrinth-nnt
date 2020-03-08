@@ -216,7 +216,7 @@ const Quiz: React.FC = () => {
               마가는 별모양 뱃지를 테이블 위에서 밀어 던져서 렝고에게 건냈다.
               <br />
               <br />
-              <img src={image1} alt="" />
+              <img src={image1} alt="" style={{ width: "30rem" }} />
               <br />
               <br />
               “뭐야 이거 이거 뱅이잖아요? 이걸 왜 가져왔어요?”
@@ -259,7 +259,7 @@ const Quiz: React.FC = () => {
               <br />
               <br />
             </S.Text>
-            <img src={img1} />
+            <img src={img1} style={{ width: "30rem" }} />
             <S.TextInputContainer>
               Answer
               <br />
@@ -338,7 +338,7 @@ const Quiz: React.FC = () => {
               <br />
               <br />
             </S.Text>
-            <img src={img2_2} />
+            <img src={img2_2} style={{ width: "30rem" }} />
             <S.TextInputContainer>
               Answer
               <br />
@@ -359,56 +359,61 @@ const Quiz: React.FC = () => {
           <>
             <S.Number>2</S.Number>
             <S.Text>
-            	풍선의 내용물은 마가를 가리키고 있었다.
-	            <br />
-              	<br />
-				“이런게 왜 풍선안에 있는거죠?”
-				<br />
-              	<br />
-				“마가님이 정답인 문제라니 수상한데?”
-				<br />
-              	<br />
-				“아니, 제가 넣어놓은게 아니라구요. 오히려 저도 궁금하거든요. 어째서 제 이름이 나오는데요?”
-				<br />
-              	<br />
-				마가도 당황한듯이 변명을 하고 있었다.
-				<br />
-              	<br />
-				“누가 준비한건진 몰라도 거기에 마가님 적혀 이름이 있다는건 연관이 있다는거 아니에요!?”
-				<br />
-              	<br />
-				“그렇게치면 초대장 뒤에 이름이 적혀 있던 오군도 충분히 수상한거 아니에요?”
-				<br />
-              	<br />
-				마가는 자신만 당할 수 없다며 앞서 문제를 냈던 렝고를 걸고 넘어졌다.
-				<br />
-              	<br />
-				“흠 그것도 그렇군”
-				<br />
-              	<br />
-				“마가님이 문제 낼 차례라는 거 아니에요?”
-				<br />
-              	<br />
-				“이상하긴 하지만 왠지 그러라는것 같네요”
-				<br />
-              	<br />
-				“그럼 이거부터 받고 내세요”
-				<br />
-              	<br />
-				렝고는 달고 있던 뱃지를 떼서 마가한테 건내줬다.
-				<br />
-              	<br />
-				마가는 뱃지를 받아 자신의 옷에 옮겨 달았다.
-				<br />
-              	<br />
-				“네 알겠습니다. 그럼 제가 준비한 문제나 보시죠.”
-				<br />
-              	<br />
-				그리고 주머니에서 펜을 꺼낸 뒤 자신의 초대장 뒷면에 그림을 그리기 시작했다.
-				<br />
-              	<br />
+              풍선의 내용물은 마가를 가리키고 있었다.
+              <br />
+              <br />
+              “이런게 왜 풍선안에 있는거죠?”
+              <br />
+              <br />
+              “마가님이 정답인 문제라니 수상한데?”
+              <br />
+              <br />
+              “아니, 제가 넣어놓은게 아니라구요. 오히려 저도 궁금하거든요.
+              어째서 제 이름이 나오는데요?”
+              <br />
+              <br />
+              마가도 당황한듯이 변명을 하고 있었다.
+              <br />
+              <br />
+              “누가 준비한건진 몰라도 거기에 마가님 적혀 이름이 있다는건 연관이
+              있다는거 아니에요!?”
+              <br />
+              <br />
+              “그렇게치면 초대장 뒤에 이름이 적혀 있던 오군도 충분히 수상한거
+              아니에요?”
+              <br />
+              <br />
+              마가는 자신만 당할 수 없다며 앞서 문제를 냈던 렝고를 걸고
+              넘어졌다.
+              <br />
+              <br />
+              “흠 그것도 그렇군”
+              <br />
+              <br />
+              “마가님이 문제 낼 차례라는 거 아니에요?”
+              <br />
+              <br />
+              “이상하긴 하지만 왠지 그러라는것 같네요”
+              <br />
+              <br />
+              “그럼 이거부터 받고 내세요”
+              <br />
+              <br />
+              렝고는 달고 있던 뱃지를 떼서 마가한테 건내줬다.
+              <br />
+              <br />
+              마가는 뱃지를 받아 자신의 옷에 옮겨 달았다.
+              <br />
+              <br />
+              “네 알겠습니다. 그럼 제가 준비한 문제나 보시죠.”
+              <br />
+              <br />
+              그리고 주머니에서 펜을 꺼낸 뒤 자신의 초대장 뒷면에 그림을 그리기
+              시작했다.
+              <br />
+              <br />
             </S.Text>
-            <img src={img2} />
+            <img src={img2} style={{ width: "30rem" }} />
             <S.TextInputContainer>
               Answer
               <br />
@@ -417,28 +422,206 @@ const Quiz: React.FC = () => {
             </S.TextInputContainer>
           </>
         )}
-      {new Date() >= new Date("03/08/2020 00:00:00") &&
-        window.location.pathname === `/plooq` && (
-          <>
-            <S.Number>3</S.Number>
-            <S.Text></S.Text>
-            <img src={img3_2} />
-            <S.TextInputContainer>
-              Answer
-              <br />
-              <br />
-              <TextInput answer="marvil" index={2} goTo="marvil" />
-            </S.TextInputContainer>
-          </>
-        )}
+
       {new Date() < new Date("03/08/2020 00:00:00") &&
         window.location.pathname === `/plooq` && (
           <>
             <Clock date={new Date("03/08/2020 00:00:00")} />
           </>
         )}
+      {new Date() >= new Date("03/08/2020 00:00:00") &&
+        window.location.pathname === `/plooq` && (
+          <>
+            <S.Number>3</S.Number>
+            <S.Text>
+              역시나 마가의 문제를 푼다고 해서 무슨 일이 일어나지는 않았다.
+              <br />
+              <br />
+              “...이렇게 하는게 맞는건지 모르겠네요”
+              <br />
+              <br />
+              “특별히 시키는것도 없는데 이것밖에 더 있어요?”
+              <br />
+              <br />
+              “아니 그런게 의도라면 문제 풀 때마다 띵동~ 소리 나면서 스피커에서
+              변조된 목소리가 나오며 해설이라도 해 줘야 하는거 아니에요??”
+              <br />
+              <br />
+              “어이 그건 너무 본격적이잖아”
+              <br />
+              <br />
+              “그렇게 해줄정도로 예산이 남아돌진 않았나 보네요”
+              <br />
+              <br />
+              “어차피 이렇게 뭐가뭔지 모를바엔 제발 그냥 다 풀어버리면
+              안되는건가요?”
+              <br />
+              <br />
+              “혹시 모르니까 다음사람 이름을 찾아보는게 좋을것같은데요”
+              <br />
+              <br />
+              주최자의 어설픔을 비난하며 각자 떠들고 있던 와중에 갑작스러운
+              폭발음이 일어났다.
+              <br />
+              <br />
+              “악 와씨 깜짝이야!”
+              <br />
+              <br />
+              “뭐임? 대체 뭐임??”
+              <br />
+              <br />
+              사방에 화려한 종이조각들이 날리며 떨어지고 있었다.
+              <br />
+              <br />
+              “악 죄송해여”
+              <br />
+              <br />
+              톡기가 조심스럽게 사과하며 말했다.
+              <br />
+              <br />
+              “뭔가 줄같은 게 있길래 땡겼더니 폭죽같은 게 터졌나봐요.”
+              <br />
+              <br />
+              “아이 톡기님도 참! 놀래키기전에 깜빡깜빡을 하셧어야죠!”
+              <br />
+              <br />
+              “깜빡깜빡ㅎㅎ...”
+              <br />
+              <br />
+              “늦었는데요”
+              <br />
+              <br />
+              “저기 뭐 또 있는것 같은데요”
+              <br />
+              <br />
+              렝고가 가리킨 곳에는 흩날리는 꽃보라 사이에 상대적으로 커다란 종이
+              한 장이 펄럭거리며 떨어지고 있었다.
+              <br />
+              <br />
+              잡아서 확인해보니 여기에도 문제가 적혀 있었다.
+              <br />
+              <br />
+            </S.Text>
+            <img src={img3_2} style={{ width: "30rem" }} />
+            <S.TextInputContainer>
+              Answer
+              <br />
+              <br />
+              <TextInput answer="marvil" index={2} goTo="dpqksep" />
+            </S.TextInputContainer>
+          </>
+        )}
+      {new Date() >= new Date("03/08/2020 00:00:00") &&
+        window.location.pathname === `/dpqksep` && (
+          <>
+            <S.Number>3</S.Number>
+            <S.Text>
+              “두번째까지는 긴가민가 했는데 이정도면...”
+              <br />
+              <br />
+              “이 때까지 패턴으로 봐선 마뷜님이 하는게 맞는것같네요”
+              <br />
+              <br />
+              “그럼 마료씨 이거 받으세요.”
+              <br />
+              <br />
+              이전 문제를 냈던 마가가 차고 있던 뱃지를 풀고 마뷜에게 건내주려고
+              던졌다.
+              <br />
+              <br />
+              그러나 손이 미끄러진건지 운동신경 부족인지 뱃지는 다른 방향으로
+              날아갔고, 그대로 테이블에 있던 다른 물건과 부딪혀 톡기 앞으로
+              떨어졌다.
+              <br />
+              <br />
+              “악 내 바나나!!”
+              <br />
+              <br />
+              톡기는 당황하며 뱃지와 떨어진 물건을 주웠다.
+              <br />
+              <br />
+              그 물건은 얼굴이 그려진 분홍색 바나나 인형이었다.
+              <br />
+              <br />
+              “그..기괴한 바나나는 뭐죠”
+              <br />
+              <br />
+              “아니 기괴하다니요. 제 소중한 바나나인데”
+              <br />
+              <br />
+              “저거 테탑에서 만들었던 바나나 아니에요?”
+              <br />
+              <br />
+              “마자여 아까 쩌기 상자에 있던데.”
+              <br />
+              <br />
+              “다른 바나나들도 있어? 내 캐디같은거”
+              <br />
+              <br />
+              “아니아니 내것만 있던데?”
+              <br />
+              <br />
+              “캐디가 왜 캐디에요?”
+              <br />
+              <br />
+              “아 바바나 캐디시번.. 캐번시디 종이라서요!”
+              <br />
+              <br />
+              “왜 하필 톡기님 바나나만 있는거지? 개꿀잼 몰카인가?”
+              <br />
+              <br />
+              “그럼 톡기님이 문제낼 차례라는거 아니에요? 저거 언제 발견했어요?”
+              <br />
+              <br />
+              “바나나는 바나나지 토끼가 아니잖아요.”
+              <br />
+              <br />
+              “근데 다른사람 바나나는 없잖아요”
+              <br />
+              <br />
+              바나나의 존재로 사람들은 혼란에 빠지고 말았다.
+              <br />
+              <br />
+              진행 자체가 가이드라인 없이 어중간하게 이루어지고 있던 탓에 벌어진
+              일이었다.
+              <br />
+              <br />
+              “일단 그냥 이름나온 제가 할게요”
+              <br />
+              <br />
+              보다못한 마뷜이 일어서며 이야기를 꺼냈다.
+              <br />
+              <br />
+              “그래요 괴상하게 생긴 분홍색 바나나보다는 그게 확실하겠죠”
+              <br />
+              <br />
+              “그럼 문제 낼게요 뱃지 줘봐요”
+              <br />
+              <br />
+              뱃지를 받은 마뷜은 펜을 꺼내서 자신의 초대장에 간단한 식을 적기
+              시작했다.
+              <br />
+              <br />
+              <br />
+              <br />
+              연어 ※ s ¤ d = 아몬드
+              <br />
+              아몬드 ※ ad ¤ e = 레몬
+              <br />
+              부산 ※ 판다 ¤ 휴대정보단말기 = ?
+              <br />
+              <br />
+            </S.Text>
+            <S.TextInputContainer>
+              Answer
+              <br />
+              <br />
+              <TextInput answer="bus" index={2} goTo="aksdnjs" />
+            </S.TextInputContainer>
+          </>
+        )}
       {new Date() >= new Date("03/10/2020 00:00:00") &&
-        window.location.pathname === `/marvil` && (
+        window.location.pathname === `/aksdnjs` && (
           <>
             <S.Number>4</S.Number>
             <S.Text></S.Text>
@@ -450,21 +633,8 @@ const Quiz: React.FC = () => {
             </S.TextInputContainer>
           </>
         )}
-      {new Date() >= new Date("03/10/2020 00:00:00") &&
-        window.location.pathname === `/bus` && (
-          <>
-            <S.Number>4</S.Number>
-            <S.Text></S.Text>
-            <S.TextInputContainer>
-              Answer
-              <br />
-              <br />
-              <TextInput answer="yusera" index={3} goTo="yusera" />
-            </S.TextInputContainer>
-          </>
-        )}
       {new Date() < new Date("03/10/2020 00:00:00") &&
-        window.location.pathname === `/bus` && (
+        window.location.pathname === `/aksdnjs` && (
           <>
             <Clock date={new Date("03/10/2020 00:00:00")} />
           </>
