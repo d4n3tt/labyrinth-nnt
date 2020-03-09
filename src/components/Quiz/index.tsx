@@ -1033,12 +1033,12 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="two" index={5} goTo="cnrgkgo" />
+              <TextInput answer="two" index={5} goTo="aaa" />
             </S.TextInputContainer>
           </>
         )}
       {new Date() < new Date("03/12/2020 00:00:00") &&
-        window.location.pathname === `/cnrgkgo` && (
+        window.location.pathname === `/aaa` && (
           <>
             <Clock date={new Date("03/12/2020 00:00:00")} />
           </>
