@@ -22,11 +22,9 @@ export const Button = styled.button`
     0% {
       transform: translateY(50px);
     }
-
     50% {
       transform: translateY(-100px);
     }
-
     100% {
       transform: translateY(50px);
     }
