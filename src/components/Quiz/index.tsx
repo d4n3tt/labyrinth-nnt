@@ -1040,7 +1040,7 @@ const Quiz: React.FC = () => {
       {new Date() < new Date("03/12/2020 00:00:00") &&
         window.location.pathname === `/spqkrwk` && (
           <>
-            <Clock date={new Date("03/12/2020 00:00:00")} />
+            <Clock date={new Date("03/14/2020 00:00:00")} />
           </>
         )}
       {/* ㅁㄴㅇ */}
