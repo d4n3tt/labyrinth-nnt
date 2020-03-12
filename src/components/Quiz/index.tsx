@@ -19,6 +19,7 @@ import image3 from "../../assets/image3.png";
 import image4 from "../../assets/image4.png";
 import image5 from "../../assets/image5.png";
 import image6 from "../../assets/image6.png";
+import image7 from "../../assets/image7.png";
 
 const Quiz: React.FC = () => {
   return (
@@ -658,7 +659,7 @@ const Quiz: React.FC = () => {
               “합리적으로 생각해보면 그게 맞겠네요”
               <br />
               <br />
-              “그럼 순서가 상관 없으니 바나나 주인인 톢님이 문제 내시면
+              “그럼 순서가 상관 없으니 바나나 주인인 톡님이 문제 내시면
               되겠네요!”
               <br />
               <br />
@@ -943,7 +944,7 @@ const Quiz: React.FC = () => {
               <br />
               <br />
               “그럼 전 사이다 더 없나 찾아보고 올게요. 술은 안 가지고 올거니까
-              톢님 기대하지 마세요.”
+              톡님 기대하지 마세요.”
               <br />
               <br />
               깨진 병이 아쉬운 듯 머판이 말하며 일어서 부엌으로 향했다.
@@ -962,7 +963,7 @@ const Quiz: React.FC = () => {
               Answer
               <br />
               <br />
-              <TextInput answer="byeop" index={3} goTo="dbgodrk" />
+              <TextInput answer="byeop" index={4} goTo="dbgodrk" />
             </S.TextInputContainer>
           </>
         )}
@@ -972,7 +973,61 @@ const Quiz: React.FC = () => {
             <S.Number>5</S.Number>
             <S.Text>
               <img src={image6} alt="" style={{ width: "30rem" }} />
-              {/* 볍씨문제대사 */}
+              테이블 위의 머핀에 볍씨를 가리키는 카드가 꽂혀 있던 것이다.
+              <br />
+              <br />
+              “이번엔 또 무슨 일이에요?”
+              <br />
+              <br />
+              청소도구를 가져온 렝고가 물었다.
+              <br />
+              <br />
+              “병 깨져서 난리난 사이에 누가 빵에 문제를 꽂아놨어요.”
+              <br />
+              <br />
+              “뭐야. 이번엔 또 누가 꽂은거야? 지문감식이라도 좀 해봐요.”
+              <br />
+              <br />
+              봉투를 들고 온 톡기가 말했다.
+              <br />
+              <br />
+              <img src={image7} alt="" style={{ width: "30rem" }} />
+              <br />
+              <br />
+              머핀이 담긴 그릇은 이름이 비슷한 머판과 마가 그리고 볍씨의 자리로
+              둘러쌓여 있었다.
+              <br />
+              <br />
+              다른 사람이 문제를 꽂으려고 했다면 혼란스러운 상황이었다곤 하지만
+              보는 눈이 있었다고 생각됐다.
+              <br />
+              <br />
+              “잠시만, 진짜 수상한 사람이 누구인지 알아냈어요!”
+              <br />
+              <br />
+              “머임? 무슨 일임?”
+              <br />
+              <br />
+              방금 부엌에서 돌아온 머판이 말했다.
+              <br />
+              <br />
+              “아 이런건 나중에 하고 빨리 제 문제나 풀어요!”
+              <br />
+              <br />
+              재촉하며 볍씨가 유세라에게서 뱃지를 받았다.
+              <br />
+              <br />
+              그리곤 마침 화장실에서 마뷜이 돌아오자 이 때다 싶어 문제를 내기
+              시작했다.
+              <br />
+              <br />
+              <br />
+              <br />1 + 2 + 6 = 1<br />
+              3 / 3 + 8 + 10 = 0<br />
+              7 x 2 - 13 + 12 = 2<br />
+              2 x 2 x 10 + 2 = 3<br />
+              12 x 10 + 8/2 = ?<br />
+              <br />
             </S.Text>
             <S.TextInputContainer>
               Answer

@@ -11,6 +11,7 @@ import gif7 from "../../assets/gif7.gif";
 import gif8 from "../../assets/gif8.gif";
 import gif9 from "../../assets/gif9.gif";
 import big1 from "../../assets/big1.png";
+import ending from "../../assets/ending.png";
 
 const EndingPage: React.FC = () => {
   const onClickButton = e => {
@@ -18,6 +19,7 @@ const EndingPage: React.FC = () => {
   };
   return (
     <>
+      <S.Image src={ending} style={{ width: "40rem" }} />
       <S.Main>
         <S.Space>노넥생일축하</S.Space>
         <img src={gif1} style={{ width: "30rem" }} />
