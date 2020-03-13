@@ -74,7 +74,7 @@ const Home: React.FC = () => {
           startDate={new Date("03/14/2020 00:00:00")}
           dateText="03/14"
           afterText="미"
-          code="2"
+          code="spqkrwk"
           iconUrl={icon0314}
           index={6}
         />
