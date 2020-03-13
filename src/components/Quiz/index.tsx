@@ -1045,7 +1045,7 @@ const Quiz: React.FC = () => {
           </>
         )}
       {/* ㅁㄴㅇ */}
-      {new Date() >= new Date("03/12/2020 00:00:00") &&
+      {new Date() >= new Date("03/14/2020 00:00:00") &&
         window.location.pathname === `/spqkrwk` && (
           <>
             <S.Number>6</S.Number>
@@ -1117,7 +1117,7 @@ const Quiz: React.FC = () => {
             </S.TextInputContainer>
           </>
         )}
-      {new Date() >= new Date("03/12/2020 00:00:00") &&
+      {new Date() >= new Date("03/14/2020 00:00:00") &&
         window.location.pathname === `/htrib` && (
           <>
             <S.Number>6</S.Number>

@@ -41,6 +41,7 @@ const EndingPage: React.FC = () => {
             <img src={gif8} style={{ width: "20rem" }} />
             <S.Space>노넥생일축하</S.Space>
             <img src={gif9} style={{ width: "30rem" }} />
+            <br />
             <S.Button onClick={onClickButton}>축하해주기!!</S.Button>
             <S.Space />
           </S.Main>
