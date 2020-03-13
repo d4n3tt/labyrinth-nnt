@@ -99,6 +99,8 @@ const EndingPage: React.FC = () => {
               한 명만 빼고
               <br />
               <br />
+              <br />
+              <br />
               “...뭐임?”
               <br />
               <br />
@@ -113,6 +115,8 @@ const EndingPage: React.FC = () => {
               <br />
               <br />
               그렇게 모두가 행복하게 파티를 즐겼다고 한다.
+              <br />
+              <br />
               <br />
               <br />
               한 명만 빼고
