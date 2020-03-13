@@ -5,6 +5,7 @@ export const Main = styled.div`
   animation: fadein 15s;
   background-image: url(${bg1});
   background-color: rgb(255, 201, 14);
+  background-size: 40rem;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -52,4 +53,20 @@ export const Button = styled.button`
       transform: translateY(50px);
     }
   }
+`;
+
+export const Text = styled.div`
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 10rem;
+  line-height: 3rem;
+  padding: 0rem 5rem;
+`;
+
+export const Container = styled.div`
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  text-align: center;
 `;

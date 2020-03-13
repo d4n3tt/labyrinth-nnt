@@ -1045,6 +1045,132 @@ const Quiz: React.FC = () => {
           </>
         )}
       {/* ㅁㄴㅇ */}
+      {new Date() >= new Date("03/12/2020 00:00:00") &&
+        window.location.pathname === `/spqkrwk` && (
+          <>
+            <S.Number>6</S.Number>
+            <S.Text>
+              볍씨의 문제를 푼 뒤 이야기는 이어졌다.
+              <br />
+              <br />
+              “생각해보면 이 파티의 목적은 뭘까요?”
+              <br />
+              <br />
+              정체를 알 수 없는 인물이 초대장을 보낸 파티.
+              <br />
+              <br />
+              그 초대를 받은 사람들은 모두 거실 사람이었다.
+              <br />
+              <br />
+              “파티룸 상태를 보면.. 뭔가를 축하하기 위한 파티인것같은데..”
+              <br />
+              <br />
+              화려한 종이 장식과 풍선, 손대지 못하고 있지만 먹음직스러운 음식들.
+              <br />
+              <br />
+              현장에는 폭죽과 다양한 물건이 든 상자. 그리고 고깔모자가 있었다.
+              <br />
+              <br />
+              “그 뭔가는 누군가의..”
+              <br />
+              <br />
+              “혹시 이때까지 문제의 답들을 이어보면?”
+              <br />
+              <br />
+              조금씩 생각들이 짜맞춰지고 있었다.
+              <br />
+              <br />
+              “파티장에 있던 물건들이 계속 누구를 가리키고 있는 것 같은데요”
+              <br />
+              <br />
+              “생각해보면 꽤 노골적이였죠?”
+              <br />
+              <br />
+              “뭐가 터지고 떨어지고 깨지고 하는것들도 생각해보면... ”
+              <br />
+              <br />
+              “겹치는 사람이 있네요”
+              <br />
+              <br />
+              그리고 그 생각은 점점 한 사람을 가리키고 있었다.
+              <br />
+              <br />
+              “어? 이거뭐야 님들 잠시만요”
+              <br />
+              <br />
+              갑자기 노넥이 손을 들며 말을 끊었다.
+              <br />
+              <br />
+              “갑자긴데 주머니에 이게 들어있었어요”
+              <br />
+              <br />
+              노넥은 주머니에서 접혀있는 커다란 종이 한 장을 꺼냈다.
+              <br />
+              <br />
+            </S.Text>
+            <img src={img6_2} style={{ width: "30rem" }} />
+            <S.TextInputContainer>
+              Answer
+              <br />
+              <br />
+              <TextInput answer="nonek" index={5} goTo="htrib" />
+            </S.TextInputContainer>
+          </>
+        )}
+      {new Date() >= new Date("03/12/2020 00:00:00") &&
+        window.location.pathname === `/htrib` && (
+          <>
+            <S.Number>6</S.Number>
+            <S.Text>
+              “아니 그런게 주머니에 들어있었다구요?”
+              <br />
+              <br />
+              그 종이는 갑자기 몰랐다는듯이 꺼내기엔 너무 컸다.
+              <br />
+              <br />
+              “아까 혼란스러울때 누가 주머니에 넣었나봐요”
+              <br />
+              <br />
+              “그 큰걸 넣었는데 모를수가 있어요?”
+              <br />
+              <br />
+              “누구는 고깔모자 씌우는것도 몰랐잖아요”
+              <br />
+              <br />
+              “아니 그거랑은 다르잖아요”
+              <br />
+              <br />
+              상당히 어처구니 없는 상황이었지만 일단은 그게 중요하지 않은 듯
+              했다.
+              <br />
+              <br />
+              “쨋든 내차례인듯하니 뱃지 가져갈게요”
+              <br />
+              <br />
+              <br />
+              <br />
+              0 = 3
+              <br />
+              12 = 우리
+              <br />
+              32 = ?
+              <br />
+              <br />
+            </S.Text>
+            <S.TextInputContainer>
+              Answer
+              <br />
+              <br />
+              <TextInput answer="me" index={6} goTo="ending" />
+            </S.TextInputContainer>
+          </>
+        )}
+      {/* {new Date() < new Date("03/14/2020 00:00:00") &&
+        window.location.pathname === `/yadb` && (
+          <>
+            <Clock date={new Date("03/1/2020 00:00:00")} />
+          </>
+        )} */}
     </>
   );
 };

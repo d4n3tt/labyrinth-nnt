@@ -24,6 +24,7 @@ const App: React.FC = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/ending" component={EndingPage} />
+          <Route exact path="/ending2" component={EndingPage} />
           {/* <Route exact path="/fssssss" component={Muffan} /> */}
           <Route default component={QuizPage} />
         </Switch>
