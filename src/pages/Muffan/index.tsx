@@ -415,6 +415,12 @@ const Muffan: React.FC = () => {
               머판님 생일 축하해.
               <br />
               <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             </S.Text>
           </S.Container>
         </>
