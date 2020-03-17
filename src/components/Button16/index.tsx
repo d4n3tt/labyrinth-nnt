@@ -15,7 +15,7 @@ const Button16: React.FC<Button16Props> = ({ startDate }) => {
   const [state, setState] = useState(cookies.get("cookie"));
   return (
     <>
-      {new Date() < startDate && state >= 6 && (
+      {state >= 6 && (
         <>
           <S.Container>
             <S.IconNone src={icon} alt="" />
