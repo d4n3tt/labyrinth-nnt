@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Home from "./pages/Home";
-/* import Muffan from "./pages/Muffan"; */
+import Muffan from "./pages/Muffan";
 import EndingPage from "./pages/EndingPage";
 import QuizPage from "./pages/QuizPage";
 import BGM from "./components/BGM";
@@ -25,7 +25,9 @@ const App: React.FC = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/ending" component={EndingPage} />
           <Route exact path="/ending2" component={EndingPage} />
-          {/* <Route exact path="/fssssss" component={Muffan} /> */}
+          <Route exact path="/muffan" component={Muffan} />
+          <Route exact path="/muffan2" component={Muffan} />
+          <Route exact path="/muffan3" component={Muffan} />
           <Route default component={QuizPage} />
         </Switch>
       </BrowserRouter>
