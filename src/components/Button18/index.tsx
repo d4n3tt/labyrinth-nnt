@@ -42,7 +42,7 @@ const Button18: React.FC<Button16Props> = ({ startDate, code, dateText }) => {
         </>
       )}
       {/* 14~18 */}
-      {new Date() < startDate && state < 6 && (
+      {state < 6 && (
         <>
           <S.Container>
             <S.Icon src={iconLock} alt="" />
